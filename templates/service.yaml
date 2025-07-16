@@ -5,9 +5,9 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: monolith
+    app:  monolith
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 8080
-      nodePort: 30081
+    - port: 80           # The port exposed by the service
+      targetPort: 80     # The port your app container listens on
+      protocol: TCP
+      nodePort: 30081  
