@@ -1,4 +1,4 @@
 image:
-  repository: prophazedevops/nhb-radius
-  tag: latest
+  repository: nginx
+  tag: stable-alpine3.21-slim
   pullPolicy: IfNotPresent  
