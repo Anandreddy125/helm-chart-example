@@ -1,4 +1,4 @@
 image:
   repository: prophazedevops/nhb-radius
-  tag: latest
+  tag: 1.0.1-commit94790b6
   pullPolicy: IfNotPresent  
