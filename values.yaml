@@ -1,4 +1,4 @@
 image:
-  repository: jenkins:2.60.3
+  repository: jenkins:latest
   tag: latest
   pullPolicy: IfNotPresent  
